@@ -34,7 +34,7 @@ export const TodoFilter: React.FC<Props> = ({
         type="text"
         className="input"
         placeholder="Search..."
-        onChange={e => onSearchChange(e.target.value.toLowerCase())}
+        onChange={e => onSearchChange(e.target.value)}
         value={activeSearch}
       />
       <span className="icon is-left">
